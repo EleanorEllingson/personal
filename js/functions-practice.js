@@ -40,3 +40,18 @@ function last(sequence){
     var lastValue = sequence[sequence.length - 1];
     return lastValue;
 } console.log(last([1, 2, 3, 4]));
+
+function addition(a, b) {
+    return a +++ b
+}
+
+//Write a function that takes an integer minutes and converts it to seconds.
+function convert(minutes) {
+    var seconds = minutes * 60;
+    return seconds;
+}
+
+//Write a function that returns the string "something" joined with a space " " and the given argument a.
+function giveMeSomething(a) {
+    return "something " + a
+}
