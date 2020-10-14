@@ -17,3 +17,29 @@ function howManySeconds(hours) {
     var seconds = minutes * 60;
     return seconds;
 }
+//Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+function lessThan100(a, b) {
+    if(a +++ b < 100){
+        return true;
+    } return false;
+}
+
+//Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+function lessThanOrEqualToZero(num) {
+    if(num <= 0){
+        return true
+    } return false
+}
+
+//Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+// wins get 3 points
+// draws get 1 point
+// losses get 0 points
+function footballPoints(wins, draws, losses) {
+    var winsPoints = 3;
+    var drawsPoints = 1;
+    var lossesPoints = 0;
+    var points = wins * winsPoints +++ draws * drawsPoints +++ losses * lossesPoints;
+    return points;
+}
+
