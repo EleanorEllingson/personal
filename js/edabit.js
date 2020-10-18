@@ -42,4 +42,27 @@ function footballPoints(wins, draws, losses) {
     var points = wins * winsPoints +++ draws * drawsPoints +++ losses * lossesPoints;
     return points;
 }
+// Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above.
 
+function matchHouses(step) {
+    var matchsticks = step * 6
+    if(step > 1){
+        matchsticks -= step - 1
+    }
+    return matchsticks
+}
+//Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+function isSameNum(num1, num2) {
+    if(num1 === num2){
+        return true
+    }
+    return false
+
+
+    //Create a function that takes the age and return the age in days.
+    function calcAge(age) {
+        var days = age * 365
+        return days
+    }
+}
