@@ -143,8 +143,8 @@ var person = [
 function generation(x, y) {
 
     for(var i = 0; i < person.length; i++){
-        if (person.gender === y && person.generation === x){
-            var role = person.role;
+        if (person[i].gender === y && person[i].generation === x){
+            var role = person[i].role;
         }
 
     }
