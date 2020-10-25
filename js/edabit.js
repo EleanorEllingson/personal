@@ -77,3 +77,76 @@ obj.seal(obj)
     obj.spouseSignature = "Nice Try"
     return obj;
 }
+
+var person = [
+    {
+        role: "mother",
+        gender: "f",
+        generation: 1
+    },
+    {
+        role: "grandmother",
+        gender: "f",
+        generation: 2
+    },
+    {
+        role: "great grandmother",
+        gender: "f",
+        generation: 3
+    },
+    {
+        role: "father",
+        gender: "m",
+        generation: 1
+    },
+    {
+        role: "grandfather",
+        gender: "male",
+        generation: 2
+    },
+    {
+        role: "great grandfather",
+        gender: "m",
+        generation: 3
+    },
+    {
+        role: "daughter",
+        gender: "f",
+        generation: -1
+    },
+    {
+        role: "granddaughter",
+        gender: "female",
+        generation: -2
+    },
+    {
+        role: "great granddaughter",
+        gender: "f",
+        generation: -3
+    },
+    {
+        role: "son",
+        gender: "m",
+        generation: -1
+    },
+    {
+        role: "grandson",
+        gender: "m",
+        generation: -2
+    },
+    {
+        role: "great grandson",
+        gender: "m",
+        generation: -3
+    }
+]
+function generation(x, y) {
+
+    for(var i = 0; i < person.length; i++){
+        if (person.gender === y && person.generation === x){
+            var role = person.role;
+        }
+
+    }
+    return role;
+}
