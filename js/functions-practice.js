@@ -55,3 +55,18 @@ function convert(minutes) {
 function giveMeSomething(a) {
     return "something " + a
 }
+
+// Write a function definition named last that takes in sequence and returns the last value of that sequence.
+
+function last(sequence){
+    var lastValue = sequence[sequence.length - 1];
+    return lastValue;
+} console.log(last([1, 2, 3, 4]));
+
+// / Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+
+const isNegativeEven = number => number < 0 && number % 2 === 0;
+
+// Write a function definition named double that takes in a number and returns double the provided number.
+
+const double = number => number * 2;
