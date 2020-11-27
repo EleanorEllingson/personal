@@ -70,3 +70,8 @@ const isNegativeEven = number => number < 0 && number % 2 === 0;
 // Write a function definition named double that takes in a number and returns double the provided number.
 
 const double = number => number * 2;
+
+
+// Write a function definition named square that takes in a number and returns the number times itself.
+
+const square = number => Math.pow(number, 2);
